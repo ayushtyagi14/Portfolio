@@ -48,7 +48,7 @@ const Footer = () => {
       </SocialIconsContainer>
       <br />
       <br />
-      <Slogan>Created by <a href="http://#">Ayush Tyagi</a></Slogan>
+      <Slogan>Created by <a href="https://portfolio-ayushtyagi14.vercel.app/">Ayush Tyagi</a></Slogan>
     </FooterWrapper>
   );
 };
