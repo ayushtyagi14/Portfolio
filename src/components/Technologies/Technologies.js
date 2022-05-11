@@ -23,8 +23,8 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I love exploring new technologies and these are the tech stack I've learned so
-      far.
+      I love exploring new technologies and these are the tech stack I've
+      learned so far.
     </SectionText>
     <List>
       <ListItem>
