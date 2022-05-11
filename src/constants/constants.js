@@ -1,12 +1,21 @@
 export const projects = [
   {
+    title: 'BassHub Ecommerce Website',
+    description: "This is a fully functional Ecommerce Website where you can select and add items to cart and proceed to payments. This website is build on NextJs and the payment gateaway is powered by Stripe.",
+      image: '/images/basshub-ecommerce.png',
+      tags: ['JavaScript', 'NextJs', 'Stripe', 'Sanity'],
+    source: 'https://basshub-ecommerce.vercel.app/',
+    visit: 'https://github.com/ayushtyagi14/basshub_ecommerce',
+    id: 0,
+  },
+  {
     title: 'Weather App',
     description: "This is a Weather Application build using Weather API and tells you the current weather around the world.",
       image: '/images/WeatherApp.png',
       tags: ['React', 'JavaScript', 'API'],
     source: 'https://tempweather.netlify.app/',
     visit: 'https://github.com/ayushtyagi14/Weather-App',
-    id: 0,
+    id: 1,
   },
   {
     title: 'Music App',
@@ -15,15 +24,6 @@ export const projects = [
     tags: ['CSS', 'JavaScript'],
     source: 'https://songsss.netlify.app/',
     visit: 'https://github.com/ayushtyagi14/Music-App',
-    id: 1,
-  },
-  {
-    title: 'Notepad',
-    description: "This is a Notepad where you can add and delete multiple notes and also store them forever.",
-      image: '/images/Notepad.png',
-      tags: ['JavaScript'],
-    source: 'https://notes-magic.netlify.app/',
-    visit: 'https://github.com/ayushtyagi14/Notepad',
     id: 2,
   },
   {
