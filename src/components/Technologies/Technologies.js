@@ -1,6 +1,7 @@
 import React from "react";
 import { DiReact } from "react-icons/di";
 import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
+import { SiNextdotjs } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -41,6 +42,10 @@ const Technologies = () => (
       <ListItem>
         <DiReact size="5rem" />
         <ListTitle>React</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiNextdotjs size="5rem" />
+        <ListTitle>NextJs</ListTitle>
       </ListItem>
     </List>
   </Section>
