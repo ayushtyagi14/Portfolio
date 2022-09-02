@@ -1,7 +1,7 @@
 import React from "react";
 import { DiReact } from "react-icons/di";
-import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript } from "react-icons/io5";
-import { SiNextdotjs } from "react-icons/si";
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNodejs } from "react-icons/io5";
+import { SiNextdotjs, SiAngular, SiRedux, SiTailwindcss, SiBootstrap, SiMaterialui, SiMysql, SiExpress, SiMongodb, SiGithub, SiVercel, SiNetlify } from "react-icons/si";
 import {
   Section,
   SectionDivider,
@@ -46,6 +46,54 @@ const Technologies = () => (
       <ListItem>
         <SiNextdotjs size="5rem" />
         <ListTitle>NextJs</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiAngular size="5rem" />
+        <ListTitle>Angular</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiRedux size="5rem" />
+        <ListTitle>Redux</ListTitle>
+      </ListItem>
+      <ListItem>
+        <IoLogoNodejs size="5rem" />
+        <ListTitle>NodeJs</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiExpress size="5rem" />
+        <ListTitle>ExpressJs</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiTailwindcss size="5rem" />
+        <ListTitle>TailwindCSS</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiBootstrap size="5rem" />
+        <ListTitle>Bootstrap</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiMaterialui size="5rem" />
+        <ListTitle>Material UI</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiMongodb size="5rem" />
+        <ListTitle>MongoDB</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiMysql size="5rem" />
+        <ListTitle>MySQL</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiGithub size="5rem" />
+        <ListTitle>GitHub</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiVercel size="5rem" />
+        <ListTitle>Vercel</ListTitle>
+      </ListItem>
+      <ListItem>
+        <SiNetlify size="5rem" />
+        <ListTitle>Netlify</ListTitle>
       </ListItem>
     </List>
   </Section>

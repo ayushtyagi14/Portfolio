@@ -47,4 +47,5 @@ export const TimeLineData = [
   { year: 2021, text: "Started building projects" },
   { year: 2021, text: "Joined GDSC MAIT (College Club)" },
   { year: 2022, text: "Started learning Back-End Development" },
+  { year: 2022, text: "Joined GravitasAI as a Front-End Developer Intern" },
 ];
