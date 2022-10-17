@@ -1,13 +1,23 @@
 export const projects = [
   {
+    title: "ThoughtSpot Posts Website",
+    description:
+      "This is a social interaction website that is fully functional and responsive. The app includes Google Authorization via Firebase. The site allows you to post any post, leave comments on other people's posts, and interact with other users. The website is built using NextJS and the database and authorization are handled by Firebase.",
+    image: "/images/thoughtspot.png",
+    tags: ["NextJs", "Firebase", "TailwindCSS"],
+    source: "https://thought-spot.vercel.app/",
+    visit: "https://github.com/ayushtyagi14/ThoughtSpot",
+    id: 0,
+  },
+  {
     title: "Admin Dashboard Website",
     description:
-      "This is a fully functional and fully responsive Admin Panel Website. This Admin Panel includes one Dashboard, Three Pages, Four Apps, and Seven fully functional charts. This website is built on ReactJS and all the charts components are built with syncfusion.",
+      "This is an Admin Panel Website that is fully responsive and fully functional. A dashboard, three pages, four apps, and seven fully functional charts are included in this admin panel. ReactJS is used to build this website, as well as syncfusion to build all the chart components.",
     image: "/images/dashboard.png",
     tags: ["JavaScript", "ReactJs", "Syncfusion", "TailwindCSS"],
     source: "https://admin-dashboard-ayushtyagi14.vercel.app/",
     visit: "https://github.com/ayushtyagi14/admin-dashboard",
-    id: 0,
+    id: 1,
   },
   {
     title: "BassHub Ecommerce Website",
@@ -17,7 +27,7 @@ export const projects = [
     tags: ["JavaScript", "NextJs", "Stripe", "Sanity"],
     source: "https://basshub-ecommerce.vercel.app/",
     visit: "https://github.com/ayushtyagi14/basshub_ecommerce",
-    id: 1,
+    id: 2,
   },
   {
     title: "Diner Restaurant Website",
@@ -27,16 +37,6 @@ export const projects = [
     tags: ["React", "JavaScript", "CSS"],
     source: "https://diner-restaurant-website.vercel.app/",
     visit: "https://github.com/ayushtyagi14/Diner-Restaurant-Website",
-    id: 2,
-  },
-  {
-    title: "Weather App",
-    description:
-      "This is a Weather Application build using Weather API and tells you the current weather around the world.",
-    image: "/images/WeatherApp.png",
-    tags: ["React", "JavaScript", "API"],
-    source: "https://tempweather.netlify.app/",
-    visit: "https://github.com/ayushtyagi14/Weather-App",
     id: 3,
   },
 ];
@@ -44,8 +44,8 @@ export const projects = [
 export const TimeLineData = [
   { year: 2020, text: "Started learning Front-End Development" },
   { year: 2021, text: "Joined College" },
-  { year: 2021, text: "Started building projects" },
   { year: 2021, text: "Joined GDSC MAIT (College Club)" },
   { year: 2022, text: "Started learning Back-End Development" },
   { year: 2022, text: "Joined GravitasAI as a Front-End Developer Intern" },
+  { year: 2022, text: "Currently working at JugaduIN as a ReactJs Developer Intern" },
 ];

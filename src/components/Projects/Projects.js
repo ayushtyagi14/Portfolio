@@ -36,7 +36,7 @@ const Projects = () => (
             </TitleContent>
             <CardInfo>{description}</CardInfo>
             <div>
-              <TitleContent>Stack</TitleContent>
+              <TitleContent><b>Stack :</b></TitleContent>
               <TagList>
                 {tags.map((tag, i) => (
                   <Tag key={i}>{tag}</Tag>

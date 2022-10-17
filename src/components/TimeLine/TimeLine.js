@@ -70,9 +70,7 @@ const Timeline = () => {
       <br />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm a student pursuing Computer Science Engineering who loves building
-        websites and exploring new technologies. I am a tech enthusiast trying
-        to learn new things step by step.
+      Hey there! My name is Ayush, and I am a web developer. At the moment, I am studying Computer Science Engineering and I have been learning and practicing Web Development for the past two years. Over the years, I have built several projects and worked with clients. I love coding and building websites. I am a tech enthusiast and I just love exploring more!
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

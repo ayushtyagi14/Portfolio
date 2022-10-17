@@ -146,9 +146,13 @@ export const CarouselButton = styled.button`
 `
 
 export const CarouselButtonDot = styled.div`
-  background-color: white;
-  border-radius: 10px;
-  margin: auto;
-  width: 3px;
-  height: 3px;
+  display: none;
+  @media ${props => props.theme.breakpoints.sm} {
+    display: block;
+    background-color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 3px;
+    height: 3px;
+  }
 `

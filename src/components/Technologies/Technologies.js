@@ -1,6 +1,6 @@
 import React from "react";
 import { DiReact } from "react-icons/di";
-import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNodejs } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoCss3, IoLogoJavascript, IoLogoNodejs, IoLogoFirebase, IoLogoGitlab } from "react-icons/io5";
 import { SiNextdotjs, SiAngular, SiRedux, SiTailwindcss, SiBootstrap, SiMaterialui, SiMysql, SiExpress, SiMongodb, SiGithub, SiVercel, SiNetlify } from "react-icons/si";
 import {
   Section,
@@ -64,6 +64,10 @@ const Technologies = () => (
         <ListTitle>ExpressJs</ListTitle>
       </ListItem>
       <ListItem>
+        <IoLogoFirebase size="5rem" />
+        <ListTitle>Firebase</ListTitle>
+      </ListItem>
+      <ListItem>
         <SiTailwindcss size="5rem" />
         <ListTitle>TailwindCSS</ListTitle>
       </ListItem>
@@ -86,6 +90,10 @@ const Technologies = () => (
       <ListItem>
         <SiGithub size="5rem" />
         <ListTitle>GitHub</ListTitle>
+      </ListItem>
+      <ListItem>
+        <IoLogoGitlab size="5rem" />
+        <ListTitle>GitLab</ListTitle>
       </ListItem>
       <ListItem>
         <SiVercel size="5rem" />
