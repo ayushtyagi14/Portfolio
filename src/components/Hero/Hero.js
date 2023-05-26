@@ -16,7 +16,7 @@ const Hero = (props) => (
         Web Developer.  Coder.  Learner
       </SectionText>
       <Button onClick={() => window.location = '#connect'} >Let's Connect!</Button>
-      <Button onClick={() => window.location.href = 'https://drive.google.com/file/d/1mrV5rVySVj0It_pCAi2uqQMwQimw7P2z/view?usp=sharing'} >My Resume
+      <Button onClick={() => window.location.href = 'https://drive.google.com/file/d/1nOu3blovc6q-f-TWH5D4C_CqQ3MUYZ_x/view?usp=sharing'} >My Resume
         <FiDownload />
       </Button>
     </LeftSection>
